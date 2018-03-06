@@ -14,7 +14,7 @@
                         <TrackingEvents>...</TrackingEvents>
                         <AdParameters>
                             <![CDATA[
-{"videos":[ {"url":"https://googleads.github.io/googleads-ima-html5/media/LinearVPAIDCreative.mp4","mimetype":"video/mp4"}]}
+{"videos":[ {"url":"http://video.webmfiles.org/big-buck-bunny_trailer.webm","mimetype":"video/mp4"}]}
 ]]>
                         </AdParameters>
                         <VideoClicks>...</VideoClicks>
