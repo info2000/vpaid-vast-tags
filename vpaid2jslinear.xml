@@ -1,0 +1,36 @@
+<VAST 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+    <Ad id="1234567">
+        <InLine>
+            <AdSystem>GDFP</AdSystem>
+            <AdTitle>Linear VPAID Example</AdTitle>
+            <Description>Vpaid Linear Video Ad</Description>
+            <Error>http://www.example.com/error</Error>
+            <Impression>http://www.example.com/impression</Impression>
+            <Creatives>
+                <Creative sequence="1">
+                    <Linear>
+                        <Duration>00:00:00</Duration>
+                        <TrackingEvents>...</TrackingEvents>
+                        <AdParameters>
+                            <![CDATA[
+{"videos":[ {"url":"https://googleads.github.io/googleads-ima-html5/media/LinearVPAIDCreative.mp4","mimetype":"video/mp4"}]}
+]]>
+                        </AdParameters>
+                        <VideoClicks>...</VideoClicks>
+                        <MediaFiles>
+                            <MediaFile apiFramework="VPAID" type="application/javascript">
+https://googleads.github.io/googleads-ima-html5/vpaid/VpaidVideoAd.js
+</MediaFile>
+<MediaFiles>
+                            <MediaFile apiFramework="VPAID" type="application/javascript">
+https://mconnor.github.io/VPAIDHTML5Client/VPAIDAdChoices.js?;vpaid=true;coid=242;nid=64564;delay_start=2;position=top-left
+</MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+                <Creative sequence="1"/>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
