@@ -22,8 +22,7 @@
                             <MediaFile apiFramework="VPAID" type="application/javascript">
 https://googleads.github.io/googleads-ima-html5/vpaid/VpaidVideoAd.js
 </MediaFile>
-<MediaFiles>
-                            <MediaFile apiFramework="VPAID" type="application/javascript">
+<MediaFile apiFramework="VPAID" type="application/javascript">
 https://mconnor.github.io/VPAIDHTML5Client/VPAIDAdChoices.js?;vpaid=true;coid=242;nid=64564;delay_start=2;position=top-left
 </MediaFile>
                         </MediaFiles>
