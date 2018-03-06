@@ -22,10 +22,14 @@
                             <MediaFile apiFramework="VPAID" type="application/javascript">
 https://googleads.github.io/googleads-ima-html5/vpaid/VpaidVideoAd.js
 </MediaFile>
-<MediaFile apiFramework="VPAID" type="application/javascript">
-https://mconnor.github.io/VPAIDHTML5Client/VPAIDAdChoices.js?;vpaid=true;coid=242;nid=64564;delay_start=2;position=top-left
-</MediaFile>
                         </MediaFiles>
+                        <Icons>
+                            <Icon program="AdChoices" height="20" width="122" xPosition="right" yPosition="bottom">
+                                <IFrameResource>
+                                    <![CDATA[//mconnor.github.io/testVast/iframe-durly.html?;coid=242;nid=64545;ad_w=640;ad_h=360;position=bottom-right]]>
+                                </IFrameResource>
+                            </Icon>
+                        </Icons>
                     </Linear>
                 </Creative>
                 <Creative sequence="1"/>
