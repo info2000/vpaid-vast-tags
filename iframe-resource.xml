@@ -1,0 +1,41 @@
+<VAST 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+    <Ad id="1234567">
+        <InLine>
+            <AdSystem>GDFP</AdSystem>
+            <AdTitle>Linear VPAID Example</AdTitle>
+            <Description>Vpaid Linear Video Ad</Description>
+            <Error>http://www.example.com/error</Error>
+            <Impression>http://www.example.com/impression</Impression>
+            <Creatives>
+                <Creative sequence="1">
+                    <Linear>
+                        <Duration>00:00:00</Duration>
+                        <TrackingEvents>...</TrackingEvents>
+                        <AdParameters>
+                            <![CDATA[
+{"videos":[ {"url":"https://googleads.github.io/googleads-ima-html5/media/LinearVPAIDCreative.mp4","mimetype":"video/mp4"}]}
+]]>
+                        </AdParameters>
+                        <VideoClicks>...</VideoClicks>
+                        <MediaFiles>
+                            <MediaFile apiFramework="VPAID" type="application/javascript">
+https://googleads.github.io/googleads-ima-html5/vpaid/VpaidVideoAd.js
+</MediaFile>
+                        </MediaFiles>
+                        <Icons>
+                            <Icon program="AdChoices" height="20" width="122" xPosition="left" yPosition="bottom">
+                                <IFrameResource>
+                                    <![CDATA[
+                                        https://dev.betrad.com/vast-iframe.html?;coid=242;nid=64545;ad_w=122;ad_h=20;position=bottom-left;vast=true;
+                                    ]]>
+                                </IFrameResource>
+                            </Icon>
+                        </Icons>
+                    </Linear>
+                </Creative>
+                <Creative sequence="1"/>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
